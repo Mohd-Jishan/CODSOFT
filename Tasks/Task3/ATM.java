@@ -1,5 +1,5 @@
 package Tasks.Task3;
-
+/*ATM class it implements  ATM interface which have three methods checkBalance,caseWithdraw and  caseDeposit */
 public class ATM implements ATMInterface {
 
     @Override

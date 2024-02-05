@@ -1,5 +1,5 @@
 package Tasks.Task3;
-
+// user class it contains users details
 public class User {
    private String name;
    private double saveAmount=2500;

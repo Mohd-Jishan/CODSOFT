@@ -3,7 +3,7 @@ package Tasks.Task3;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//Main class for run this Atm Machine
 public class ATMMain {
     public static void main(String[] args) {
         List<User> users=new ArrayList<>();
