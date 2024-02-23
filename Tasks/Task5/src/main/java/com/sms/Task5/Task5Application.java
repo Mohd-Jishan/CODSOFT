@@ -13,6 +13,7 @@ import com.sms.Task5.StudentManagementSystem.Student;
 import com.sms.Task5.StudentManagementSystem.StudentManagementSystem;
 @Service
 @Component
+// this a service class 
 class StudentService{
 	
 				@Autowired
@@ -72,6 +73,9 @@ class StudentService{
 
 	
 
+/*  we implement commondlineRunner interface bcz  it has run method that helps in run a springboot application bcz we want a console based interface to the user so it execute a  method which contains the console based interface code
+ 
+ */
 
 @SpringBootApplication
 public class Task5Application implements CommandLineRunner{
@@ -83,6 +87,7 @@ public class Task5Application implements CommandLineRunner{
 	}
 
 	@Override
+	// this is the method which execute the user interface
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		ss.execute();

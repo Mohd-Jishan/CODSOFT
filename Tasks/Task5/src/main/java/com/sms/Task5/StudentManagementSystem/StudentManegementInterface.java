@@ -1,5 +1,6 @@
 package com.sms.Task5.StudentManagementSystem;
 
+// StudentManagementInterface that has 5 method to add ,delete, update, search and show all students method 
 public interface StudentManegementInterface {
 
     public void addStudent(Student student);

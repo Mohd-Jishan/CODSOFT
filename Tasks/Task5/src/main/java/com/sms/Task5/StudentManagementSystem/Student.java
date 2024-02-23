@@ -7,7 +7,9 @@ import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+// Student class to store the student details
+// here we  used some spring boot annotations that helps us to accomplish our goal easily
+// this is a hibernate orm annotation 
 @Entity
 @Data
 @AllArgsConstructor
